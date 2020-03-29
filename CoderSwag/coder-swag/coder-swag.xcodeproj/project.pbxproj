@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC022DF72430E90400E7A50E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC022DF62430E90400E7A50E /* Category.swift */; };
+		EC022DFA2430EAC900E7A50E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC022DF92430EAC900E7A50E /* DataService.swift */; };
 		EC97DC17242D0D84004B3DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC97DC16242D0D84004B3DA7 /* AppDelegate.swift */; };
 		EC97DC19242D0D84004B3DA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC97DC18242D0D84004B3DA7 /* SceneDelegate.swift */; };
 		EC97DC1B242D0D84004B3DA7 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC97DC1A242D0D84004B3DA7 /* CategoriesVC.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC022DF62430E90400E7A50E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		EC022DF92430EAC900E7A50E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		EC97DC13242D0D84004B3DA7 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC97DC16242D0D84004B3DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC97DC18242D0D84004B3DA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC022DF82430EABB00E7A50E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC022DF92430EAC900E7A50E /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		EC97DC0A242D0D84004B3DA7 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		EC97DC15242D0D84004B3DA7 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				EC022DF82430EABB00E7A50E /* Services */,
 				EC97DC2C242D1206004B3DA7 /* View */,
 				EC97DC2B242D1200004B3DA7 /* Model */,
 				EC97DC2A242D11F8004B3DA7 /* Controller */,
@@ -82,6 +95,7 @@
 		EC97DC2B242D1200004B3DA7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EC022DF62430E90400E7A50E /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,7 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC97DC1B242D0D84004B3DA7 /* CategoriesVC.swift in Sources */,
+				EC022DF72430E90400E7A50E /* Category.swift in Sources */,
 				EC97DC17242D0D84004B3DA7 /* AppDelegate.swift in Sources */,
+				EC022DFA2430EAC900E7A50E /* DataService.swift in Sources */,
 				EC97DC19242D0D84004B3DA7 /* SceneDelegate.swift in Sources */,
 				EC97DC2E242D1270004B3DA7 /* CategoryCell.swift in Sources */,
 			);
