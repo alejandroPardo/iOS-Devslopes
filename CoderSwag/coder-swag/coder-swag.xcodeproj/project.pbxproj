@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EC022DF72430E90400E7A50E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC022DF62430E90400E7A50E /* Category.swift */; };
 		EC022DFA2430EAC900E7A50E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC022DF92430EAC900E7A50E /* DataService.swift */; };
+		EC24DE2C243635EF00526BC9 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24DE2B243635EF00526BC9 /* ProductCell.swift */; };
 		EC97DC17242D0D84004B3DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC97DC16242D0D84004B3DA7 /* AppDelegate.swift */; };
 		EC97DC19242D0D84004B3DA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC97DC18242D0D84004B3DA7 /* SceneDelegate.swift */; };
 		EC97DC1B242D0D84004B3DA7 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC97DC1A242D0D84004B3DA7 /* CategoriesVC.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		EC022DF62430E90400E7A50E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		EC022DF92430EAC900E7A50E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		EC24DE2B243635EF00526BC9 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		EC97DC13242D0D84004B3DA7 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC97DC16242D0D84004B3DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC97DC18242D0D84004B3DA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				EC97DC2D242D1270004B3DA7 /* CategoryCell.swift */,
+				EC24DE2B243635EF00526BC9 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				EC97DC17242D0D84004B3DA7 /* AppDelegate.swift in Sources */,
 				EC022DFA2430EAC900E7A50E /* DataService.swift in Sources */,
 				EC97DC19242D0D84004B3DA7 /* SceneDelegate.swift in Sources */,
+				EC24DE2C243635EF00526BC9 /* ProductCell.swift in Sources */,
 				EC97DC2E242D1270004B3DA7 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
