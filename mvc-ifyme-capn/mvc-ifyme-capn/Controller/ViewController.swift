@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var iPhoneNameLbl: UILabel!
+    @IBOutlet weak var iPhoneColorLbl: UILabel!
+    @IBOutlet weak var iPhonePriceLbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let appleProduct = AppleProduct(name: "iPhone SE", color: "Space Gray", price: 999.99)
+        
+        iPhoneNameLbl.text = appleProduct.name
+        iPhoneColorLbl.text = "in \(appleProduct.color)"
+        iPhonePriceLbl.text = "$\(appleProduct.price)"
     }
 
 
