@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nXF-PK-Vuw" customClass="CustomPrettyView" customModule="mvc_ifyme_capn" customModuleProvider="target">
-                                <rect key="frame" x="62.5" y="183.5" width="250" height="300"/>
+                                <rect key="frame" x="62.5" y="20" width="250" height="300"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="bks-Rk-h4U">
                                         <rect key="frame" x="20" y="20" width="210" height="260"/>
@@ -27,13 +27,13 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IPHONE MODEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHv-Kp-MuT">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IPHONE MODEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHv-Kp-MuT" customClass="CustomLabel" customModule="mvc_ifyme_capn" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="53.5" width="210" height="46.5"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in IPHONE COLOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLZ-47-Lmf">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in IPHONE COLOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLZ-47-Lmf" customClass="CustomLabel" customModule="mvc_ifyme_capn" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="107" width="210" height="46"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                                                 <nil key="textColor"/>
@@ -45,7 +45,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$IPHONE PRICE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Al-mA-eZ8">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$IPHONE PRICE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Al-mA-eZ8" customClass="CustomLabel" customModule="mvc_ifyme_capn" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="213.5" width="210" height="46.5"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                                                 <nil key="textColor"/>
@@ -67,8 +67,8 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="nXF-PK-Vuw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fQv-5e-nkI"/>
-                            <constraint firstItem="nXF-PK-Vuw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iJA-i6-Tan"/>
+                            <constraint firstItem="nXF-PK-Vuw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="YDA-fS-Xz1"/>
+                            <constraint firstItem="nXF-PK-Vuw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bNj-dC-3iH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

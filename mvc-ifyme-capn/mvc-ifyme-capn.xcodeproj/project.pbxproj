@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECC5091D2451DB3B00A264CE /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5091C2451DB3B00A264CE /* CustomLabel.swift */; };
 		ECD0079F245038CF007BAC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD0079E245038CF007BAC95 /* AppDelegate.swift */; };
 		ECD007A1245038CF007BAC95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD007A0245038CF007BAC95 /* SceneDelegate.swift */; };
 		ECD007A3245038CF007BAC95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD007A2245038CF007BAC95 /* ViewController.swift */; };
 		ECD007A6245038CF007BAC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD007A4245038CF007BAC95 /* Main.storyboard */; };
 		ECD007A8245038D3007BAC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD007A7245038D3007BAC95 /* Assets.xcassets */; };
 		ECD007AB245038D3007BAC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD007A9245038D3007BAC95 /* LaunchScreen.storyboard */; };
-		ECD007B624504F42007BAC95 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD007B524504F42007BAC95 /* AppleProduct.swift */; };
+		ECD007B624504F42007BAC95 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD007B524504F42007BAC95 /* Product.swift */; };
 		ECD007B824505669007BAC95 /* CustomPrettyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD007B724505669007BAC95 /* CustomPrettyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ECC5091C2451DB3B00A264CE /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		ECD0079B245038CF007BAC95 /* mvc-ifyme-capn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvc-ifyme-capn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD0079E245038CF007BAC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECD007A0245038CF007BAC95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,7 +28,7 @@
 		ECD007A7245038D3007BAC95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECD007AA245038D3007BAC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECD007AC245038D3007BAC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECD007B524504F42007BAC95 /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
+		ECD007B524504F42007BAC95 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		ECD007B724505669007BAC95 /* CustomPrettyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPrettyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				ECD007B724505669007BAC95 /* CustomPrettyView.swift */,
+				ECC5091C2451DB3B00A264CE /* CustomLabel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -92,7 +95,7 @@
 		ECD007B424504D2F007BAC95 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				ECD007B524504F42007BAC95 /* AppleProduct.swift */,
+				ECD007B524504F42007BAC95 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,7 +172,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD007B824505669007BAC95 /* CustomPrettyView.swift in Sources */,
-				ECD007B624504F42007BAC95 /* AppleProduct.swift in Sources */,
+				ECC5091D2451DB3B00A264CE /* CustomLabel.swift in Sources */,
+				ECD007B624504F42007BAC95 /* Product.swift in Sources */,
 				ECD007A3245038CF007BAC95 /* ViewController.swift in Sources */,
 				ECD0079F245038CF007BAC95 /* AppDelegate.swift in Sources */,
 				ECD007A1245038CF007BAC95 /* SceneDelegate.swift in Sources */,
